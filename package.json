@@ -1,12 +1,14 @@
 {
     "name": "open-pro-next",
     "version": "0.1.0",
+    "homepage": "https://oslunt.github.io/itinerapedia",
     "private": true,
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "export": "next export"
     },
     "dependencies": {
         "@headlessui/react": "^1.7.14",
@@ -23,6 +25,7 @@
         "@tailwindcss/forms": "^0.5.3",
         "@types/aos": "^3.0.4",
         "autoprefixer": "^10.4.14",
+        "gh-pages": "^6.0.0",
         "postcss": "^8.4.24",
         "tailwindcss": "^3.3.2"
     }
